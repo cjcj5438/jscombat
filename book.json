@@ -1,0 +1,29 @@
+{
+  "title": "mv* 前端框架",
+  "description": "哈哈哈~",
+  "author": "陈靖",
+  "language": "zh-hans",
+  "links": {
+    "sidebar": {
+      "前端博客": "",
+      "前端小站": ""
+    }
+  },
+  "styles": {
+    "website": "style.css"
+  },
+  "plugins": [
+    "hints-istex",
+    "expandable-chapters-small@^0.1.7",
+    "-search",
+    "search-plus@^0.0.11"
+  ],
+  "pluginsConfig": {
+    "hints": {
+      "info": "fa fa-info-circle",
+      "success": "fa fa-check-circle",
+      "danger": "fa fa-exclamation-triangle",
+      "warning": "fa fa-exclamation-circle"
+    }
+  }
+}

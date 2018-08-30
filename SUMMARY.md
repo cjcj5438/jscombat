@@ -14,4 +14,6 @@
 
 ## blog{}
 * [https://juejin.im](blog/juejin/README.md)
+* [https://my.csdn.net/](blog/csdn/README.md)
+* [https://segmentfault.com/](blog/segmentfault/README.md)
 
