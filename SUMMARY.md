@@ -19,4 +19,7 @@
     * [https://segmentfault.com/](blog/segmentfault/README.md)
         * [优秀博客](blog/segmentfault/boke/you-xiu-bo-zhu.md)
         * [优秀博文](blog/segmentfault/boke/you-xiu-bo-wen.md)
+    * [otherBlog](blog/user/README.md)
+        * [优秀博客](blog/user/boke/you-xiu-bo-zhu.md)
+        * [优秀博文](blog/user/boke/you-xiu-bo-wen.md)
 
