@@ -3,7 +3,7 @@
 * [js](README.md)
 * [JS](js/README.md)
     * [JS传参技巧](js/js-chuan-can-ji-qiao.md)
-    * [blog](js/blog.md)
+    * [ES6解构](js/ES6-jie-gou.md)
     * [Promise {code}](js/promise-code.md)
 * [NPM](npm/README.md)
     * [username](npm/username.md)
