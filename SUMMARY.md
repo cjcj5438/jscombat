@@ -9,6 +9,7 @@
     * [username](npm/username.md)
     * [mem](npm/mem.md)
     * [mimic-fn](npm/mimic-fn.md)
+    * [throttle-debounce](npm/throttle-debounce.md)
 * [blog](blog/README.md)
     * [https://juejin.im](blog/juejin/README.md)
         * [优秀博客](blog/juejin/boke/you-xiu-bo-zhu.md)
