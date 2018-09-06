@@ -71,3 +71,94 @@ const makeRequest = async () => {
 }
 ```
 ## 条件语句 ##
+需要获取数据，然后根据返回数据决定是直接返回，还是继续获取更多的数据。
+```
+const makeRequest = () => {
+  return getJSON()
+    .then(data => {
+      if (data.needsAnotherRequest) {
+        return makeAnotherRequest(data)
+          .then(moreData => {
+            console.log(moreData)
+            return moreData
+          })
+      } else {
+        console.log(data)
+        return data
+      }
+    })
+}
+```
+使用async/await编写可以大大地提高可读性:
+```
+const makeRequest = async () => {
+  const data = await getJSON()
+  if (data.needsAnotherRequest) {
+	// 把makeAnotherRequest方法抽离出来
+    const moreData = await makeAnotherRequest(data);
+    console.log(moreData)
+    return moreData
+  } else {
+    console.log(data)
+    return data    
+  }
+}
+```
+## 中间值 ##
+
+很可能遇到过这样的场景，调用promise1，使用promise1返回的结果去调用promise2，然后使用两者的结果去调用promise3。你的代码很可能是这样的:
+
+```
+const makeRequest = () => {
+  return promise1()
+    .then(value1 => {
+      return promise2(value1)
+        .then(value2 => {        
+          return promise3(value1, value2)
+        })
+    })
+}
+```
+如果promise3不需要value1，可以很简单地将promise嵌套铺平。如果你忍受不了嵌套，你可以将value 1 & 2 放进Promise.all来避免深层嵌套：
+```
+const makeRequest = () => {
+  return promise1()
+    .then(value1 => {
+      return Promise.all([value1, promise2(value1)])
+    })
+    .then(([value1, value2]) => {      
+      return promise3(value1, value2)
+    })
+}
+//这种方法为了可读性牺牲了语义。除了避免嵌套，并没有其他理由将value1和value2放在一个数组中。
+```
+使用async/await的话，代码会变得异常简单和直观。
+```
+
+
+const makeRequest = async () => {
+  const value1 = await promise1()
+  const value2 = await promise2(value1)
+  return promise3(value1, value2)
+}
+```
+## 错误栈 ##
+在开发环境中，这一点优势并不大。但是，当你分析生产环境的错误日志时，它将非常有用。这时，知道错误发生在makeRequest比知道错误发生在then链中要好。
+总的来说.更好调试;
+```
+const makeRequest = async () => {
+  await callAPromise()
+  await callAPromise()
+  await callAPromise()
+  await callAPromise()
+  await callAPromise()
+  throw new Error("oops");
+}
+
+makeRequest()
+  .catch(err => {
+    console.log(err);
+    // output
+    // Error: oops at makeRequest (index.js:7:9)
+  })
+```
