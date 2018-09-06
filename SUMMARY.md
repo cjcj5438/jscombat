@@ -5,6 +5,7 @@
     * [JS传参技巧](js/js-chuan-can-ji-qiao.md)
     * [ES6解构](js/ES6-jie-gou.md)
     * [Promise {code}](js/promise-code.md)
+    * [Async/Await](js/async-await.md)
 * [NPM](npm/README.md)
     * [username](npm/username.md)
     * [mem](npm/mem.md)
