@@ -10,6 +10,7 @@
         * [Async/Await](js/myjs/async-await.md)
     * [Adapter~适配器](js/Adapter/README.md)
         * [ary](js/Adapter/ary.md)
+        * [call](js/Adapter/call.md)
 * [NPM](npm/README.md)
     * [css](css/css/README.md)
 * [NPM](npm/README.md)
