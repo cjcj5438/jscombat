@@ -1,6 +1,6 @@
 # Summary
 
-* [js](README.md)
+* [readme](README.md)
 * [JS](js/README.md)
     * [myjs](js/myjs/README.md)
         * [JS传参技巧](js/myjs/js-chuan-can-ji-qiao.md)
