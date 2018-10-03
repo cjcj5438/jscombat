@@ -14,6 +14,7 @@
         * [函数数组的结果集合](js/Adapter/collectInto.md)
         * [flip~第一个参数放到到最后](js/Adapter/flip.md)
         * [所有的函数执行args](js/Adapter/over.md)
+        * [参数转换之后再调用,提供函数](js/Adapter/overArgs.md)
 * [NPM](npm/README.md)
     * [css](css/css/README.md)
 * [NPM](npm/README.md)

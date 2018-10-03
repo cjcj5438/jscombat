@@ -1,7 +1,7 @@
 # 所有的函数执行args
 
 ## EXPLAIN
-是很难理解. 就不详细说了了
+不是很难理解. 就不详细说了了
  ```javascript
 const over = (...fns) => (...args) => fns.map(fn => fn.apply(null, args));
 ```
