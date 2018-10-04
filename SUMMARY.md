@@ -25,6 +25,7 @@
     * [Array~数组](js/array/README.md)
         * [all](js/array/all.md)
         * [数组元素是否全部相等](js/array/allEqual.md)
+        * [any](js/array/any.md)
 * [NPM](npm/README.md)
     * [css](css/css/README.md)
 * [NPM](npm/README.md)
