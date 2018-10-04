@@ -16,6 +16,8 @@
         * [所有的函数执行args](js/Adapter/over.md)
         * [参数转换之后再调用,提供函数](js/Adapter/overArgs.md)
         * [管道异步函数](js/Adapter/pipeAsyncFunctions.md)
+        * [管道同步函数-函数组合](js/Adapter/pipeFunctions.md)
+        * [异步函数转换promise对象](js/Adapter/promisify.md)
 * [NPM](npm/README.md)
     * [css](css/css/README.md)
 * [NPM](npm/README.md)
