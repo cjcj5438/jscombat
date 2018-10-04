@@ -5,8 +5,7 @@
 ```javascript
 const rearg = (fn, indexes) => (...args) => fn(...indexes.map(i => args[i]));
 ```
-## REVISE
- 
+
 ## USE
 使用Array.prototype.map()结合spread运算符(…)对参数进行重新排序，将转换后的参数传递给fn。
 ## EXAMPLES 
