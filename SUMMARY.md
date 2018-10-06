@@ -32,6 +32,8 @@
         * [将数组拆分成指定大小的数组](js/array/chunk.md)
         * [移除数组不符合要求的元素](js/array/compact.md)
         * [数组元素分组](js/array/countBy.md)
+        * [数组元素某元素计数](js/array/countOccurrences.md)
+        * [深度数组扁平](js/array/deepFlatten.md)
 * [NPM](npm/README.md)
     * [css](css/css/README.md)
 * [NPM](npm/README.md)
