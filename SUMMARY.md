@@ -34,6 +34,7 @@
         * [数组元素分组](js/array/countBy.md)
         * [数组元素某元素计数](js/array/countOccurrences.md)
         * [深度数组扁平](js/array/deepFlatten.md)
+        * [数组不同元素](js/array/difference.md)
 * [NPM](npm/README.md)
     * [css](css/css/README.md)
 * [NPM](npm/README.md)
