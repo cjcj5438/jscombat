@@ -29,6 +29,7 @@
         * [数组装换成cvs格式输出](js/array/arrayToCSV.md)
         * [根据bool来给数组分组](js/array/bifurcate.md)
         * [自定义bool函数来给数组分组](js/array/bifurcateBy.md)
+        * [将数组拆分成指定大小的数组](js/array/chunk.md)
 * [NPM](npm/README.md)
     * [css](css/css/README.md)
 * [NPM](npm/README.md)
