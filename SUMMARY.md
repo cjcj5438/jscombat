@@ -30,6 +30,8 @@
         * [根据bool来给数组分组](js/array/bifurcate.md)
         * [自定义bool函数来给数组分组](js/array/bifurcateBy.md)
         * [将数组拆分成指定大小的数组](js/array/chunk.md)
+        * [移除数组不符合要求的元素](js/array/compact.md)
+        * [数组元素分组](js/array/countBy.md)
 * [NPM](npm/README.md)
     * [css](css/css/README.md)
 * [NPM](npm/README.md)
