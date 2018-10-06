@@ -42,6 +42,7 @@
         * [base64解码](js/node/atob.md)
         * [base64编码](js/node/btoa.md)
         * [colorize](js/node/colorize.md)
+        * [hasFlags](js/node/hasFlags.md)
 * [css](css/README.md)
     * [css](css/css/README.md)
 * [NPM](npm/README.md)
