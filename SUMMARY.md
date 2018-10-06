@@ -52,6 +52,7 @@
         * [json保存成文件](js/node/JSONToFile.md)
         * [读取文件,一行一行的保存内容](js/node/readFileLines.md)
         * [装换成绝对路径](js/node/untildify.md)
+        * [node创建UUID](js/node/uuid.md)
 * [css](css/README.md)
     * [css](css/css/README.md)
 * [NPM](npm/README.md)
