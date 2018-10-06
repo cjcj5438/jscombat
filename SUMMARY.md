@@ -43,6 +43,8 @@
         * [base64编码](js/node/btoa.md)
         * [colorize](js/node/colorize.md)
         * [hasFlags](js/node/hasFlags.md)
+        * [hash码](js/node/hashNode.md)
+        * [判断是不是双工流](js/node/isDuplexStream.md)
 * [css](css/README.md)
     * [css](css/css/README.md)
 * [NPM](npm/README.md)
