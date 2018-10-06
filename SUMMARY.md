@@ -27,6 +27,7 @@
         * [array .prototype.every()👉allEqual](js/array/allEqual.md)
         * [Array.prototype.some](js/array/any.md)
         * [数组装换成cvs格式输出](js/array/arrayToCSV.md)
+        * [根据bool来给数组分组](js/array/bifurcate.md)
 * [NPM](npm/README.md)
     * [css](css/css/README.md)
 * [NPM](npm/README.md)
