@@ -39,6 +39,7 @@
     * [Object](js/Object/README.md)
         * [bind通用方法](js/Object/bindAll.md)
         * [对象的深度克隆](js/Object/deepClone.md)
+        * [深度冻结](js/Object/deepFreeze.md)
     * [Data](js/Data/README.md)
     * [function](js/Data/README.md)
     * [node](js/node/README.md)
