@@ -42,6 +42,7 @@
         * [深度冻结](js/Object/deepFreeze.md)
         * [对象指定默认值](js/Object/defaults.md)
         * [属性挖掘](js/Object/dig.md)
+        * [对象比较](js/Object/equals.md)
     * [Data](js/Data/README.md)
     * [function](js/Data/README.md)
     * [node](js/node/README.md)
